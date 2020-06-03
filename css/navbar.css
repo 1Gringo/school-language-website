@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    background-image: url("../image/booklogoBig.png");
+    background-repeat: no-repeat;
+    background-size: 1366px 766px;
+}
+
+li,
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 406px;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+/*<a onclick="window.location.href='EnglishPage.html'" class="cta" href="#"><button>contact</button></a>*/
+
+.contentEnglish {
+    display: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 25px;
+    color: rgb(255, 255, 255);
+    text-emphasis-color: #000000;
+}
+
+.contentEnglish {
+    background-color: rgb(32, 28, 28);
+    width: 550px;
+    height: 480px;
+    text-align: center;
+    border-radius: 30px;
+    opacity: 2;
+    position: relative;
+    margin: 20px auto 0 auto;
+    box-shadow: 0 0 15px 2px rgb(255, 255, 255);
+    opacity: 0.9;
+    transition: 120s;
+    right: 10px;
+    padding: 10px;
+    transition: all 1s;
+}
+
+.contentEnglish:hover {
+    box-shadow: 0 0 15px 2px rgb(255, 0, 0);
+    box-shadow: 0 0 15px 2px rgb(30, 253, 0);
+    box-shadow: 0 0 15px 2px rgb(55, 0, 255);
+    box-shadow: 0 0 15px 2px rgb(255, 251, 0);
+}
